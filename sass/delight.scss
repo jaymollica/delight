@@ -1,0 +1,227 @@
+
+// import poppins, montserrat & chivo
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*
+
+font-family: 'Chivo', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+*/
+
+$primary: #00FFC3; //tealish
+$black: #000000;
+
+h1 {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 3.8rem;
+	line-height: 4rem;
+	color: $black;
+	position: relative;
+	z-index: 1000;
+}
+
+h2 {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 4.6rem;
+	line-height: 4rem;
+	color: $black;
+	position: relative;
+	z-index: 1000;
+}
+
+h3 {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 8rem;
+	line-height: 167%;
+	display: flex;
+	align-items: center;
+	letter-spacing: -2.5px;
+	color: $primary;
+}
+
+h4 {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 3rem;
+	line-height: 167%;
+	color: $black;
+}
+
+h5 {
+	font-family: Chivo;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.3rem;
+	line-height: 167%;
+	text-transform: uppercase;
+	color: $black;
+}
+
+h6 {
+	font-family: Chivo;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1rem;
+	line-height: 167%;
+	text-transform: uppercase;
+	color: $black;
+}
+
+p {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1rem;
+	line-height: 167%;
+	color: $black;
+}
+
+a {
+	color:$black;
+	text-decoration: none;
+	font-style: normal;
+}
+
+a:hover {
+	font-style: italic;
+	color:$black;
+	text-decoration: none;
+}
+
+p.jumbocopy {
+	padding-top:150px;
+	padding-bottom: 100px;
+}
+
+
+p.note {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+li {
+	font-family: Chivo;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 24px;
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+	color: $black;
+}
+
+li:hover {
+	font-style: italic;
+}
+
+blockquote {
+	font-family: Chivo;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	line-height: 48px;
+	color: $black;	
+}
+
+.container.first {
+	margin-top: 50px;
+}
+
+.jumbotron {
+	background-color: $primary;
+	margin-top: -35px;
+	position: relative;
+	border-radius: 0;
+}
+
+.jumbocopy {
+	margin-top: 200px;
+}
+
+.jumbo-readmore {
+	border-top: 1px solid black;
+	padding-top: 6px;
+}
+
+.button {
+	font-family: Chivo;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+div.keepinmind {
+	margin-top: -110px;
+}
+
+.card {
+	border-radius: 0;
+	border: 0;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.card-header {
+	border: 0;
+	background-color: white;
+}
+
+.card h2 button {
+	text-transform: uppercase;
+	color: $black;
+}
+
+.card h2 button:hover {
+	text-decoration: none;
+	font-style: italic;
+	color: $black;
+}
+
+.accordion-number {
+	font-family: 'Montserrat';
+	border-left: 1px solid black;
+	font-size: 175px;
+	line-height: 100%;
+	font-weight: 700;
+}
+
+blockquote {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.accordion-header {
+	margin-bottom: 50px;
+}
+
+.accordion-body {
+	margin-bottom: 100px;
+	position: relative;
+	z-index: 100;
+}
+
+.bg-number span {
+	color: $primary;
+	font-size: 50rem;
+	font-family: 'Montserrat';
+	font-weight: 700;
+	margin-top: -34rem;
+	line-height: .7;
+	position: relative;
+	z-index: 0;
+}
+
+.bg-number span.three {
+	margin-top: -36rem;
+}
+
