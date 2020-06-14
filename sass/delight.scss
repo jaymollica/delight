@@ -139,6 +139,7 @@ blockquote {
 
 .jumbotron {
 	background-color: $primary;
+	//background-image: url('../img/hero.png');
 	margin-top: -35px;
 	position: relative;
 	border-radius: 0;
@@ -174,6 +175,22 @@ div.keepinmind {
 .card-header {
 	border: 0;
 	background-color: white;
+
+	button {
+		width: 100%;
+	}
+
+	button .svg-el {
+		content: url("../img/close_x.svg");
+		height: 20px;
+		width: 20px;
+	}
+
+	button.collapsed .svg-el {
+		content: url("../img/open_arrow.svg");
+		height: 20px;
+		width: 20px;
+	}
 }
 
 .card h2 button {
@@ -230,5 +247,12 @@ blockquote {
 	margin-top:100px;
 	padding-top:16px;
 	border-bottom: 24px solid $primary;
+
+	p {
+		font-size: 14px;
+		line-height: 132%;
+		font-family: "Chivo";
+	}
+
 }
 

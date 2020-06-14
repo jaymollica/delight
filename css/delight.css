@@ -145,6 +145,16 @@ div.keepinmind {
 .card-header {
   border: 0;
   background-color: white; }
+  .card-header button {
+    width: 100%; }
+  .card-header button .svg-el {
+    content: url("../img/close_x.svg");
+    height: 20px;
+    width: 20px; }
+  .card-header button.collapsed .svg-el {
+    content: url("../img/open_arrow.svg");
+    height: 20px;
+    width: 20px; }
 
 .card h2 button {
   text-transform: uppercase;
@@ -192,5 +202,9 @@ blockquote {
   margin-top: 100px;
   padding-top: 16px;
   border-bottom: 24px solid #00FFC3; }
+  .footer p {
+    font-size: 14px;
+    line-height: 132%;
+    font-family: "Chivo"; }
 
 /*# sourceMappingURL=delight.css.map */
