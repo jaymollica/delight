@@ -151,10 +151,16 @@ div.keepinmind {
     content: url("../img/close_x.svg");
     height: 20px;
     width: 20px; }
+  .card-header button .title-el {
+    padding-left: 2px;
+    padding-right: 2px;
+    background: linear-gradient(to top, #00FFC3 60%, transparent 60%); }
   .card-header button.collapsed .svg-el {
     content: url("../img/open_arrow.svg");
     height: 20px;
     width: 20px; }
+  .card-header button.collapsed .title-el {
+    background: linear-gradient(to top, transparent 60%, transparent 60%); }
 
 .card h2 button {
   text-transform: uppercase;

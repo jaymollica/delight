@@ -186,10 +186,20 @@ div.keepinmind {
 		width: 20px;
 	}
 
+	button .title-el {
+		padding-left:2px;
+		padding-right: 2px;
+		background: linear-gradient(to top, $primary 60%, transparent 60%);
+	}
+
 	button.collapsed .svg-el {
 		content: url("../img/open_arrow.svg");
 		height: 20px;
 		width: 20px;
+	}
+
+	button.collapsed .title-el {
+		background: linear-gradient(to top, transparent 60%, transparent 60%);
 	}
 }
 
