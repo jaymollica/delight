@@ -43,6 +43,10 @@ h3 {
 h3.about {
   font-size: 20rem; }
 
+h3.subpage {
+  font-size: 50rem;
+  font-family: "Montserrat"; }
+
 h4 {
   font-family: Poppins;
   font-style: normal;
@@ -250,6 +254,10 @@ blockquote {
   margin-top: -12rem;
   margin-left: -4rem; }
 
+.container.subpage-header h3 {
+  margin-top: -32rem;
+  margin-left: -8rem; }
+
 .logo-container {
   margin: 5rem 0; }
 
@@ -258,6 +266,14 @@ div.about-copy {
   div.about-copy p:first-of-type {
     margin-top: 5rem; }
   div.about-copy h6 {
+    margin-top: 5rem;
+    margin-bottom: 1.5rem; }
+
+div.subpage-copy {
+  margin-top: -42rem; }
+  div.subpage-copy p:first-of-type {
+    margin-top: 5rem; }
+  div.subpage-copy h6 {
     margin-top: 5rem;
     margin-bottom: 1.5rem; }
 
