@@ -133,6 +133,38 @@ blockquote {
 	color: $black;	
 }
 
+//nav
+nav {
+	position: fixed;
+	margin-left:20px;
+	li {
+		font-weight: lighter;
+		font-size: 16px;
+	}
+}
+.nav-tabs {
+	border:none;
+  	display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+  & > li {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    transform-origin: center center;
+    list-style-type: none;
+    & > a {
+      display: block;
+      padding: 1.6rem 1rem;
+      background-color: transparent;
+    }
+  }
+  .active {
+  	text-decoration: underline;
+  }
+}
+
+//end nav
+
 .container.first {
 	margin-top: 50px;
 }

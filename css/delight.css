@@ -111,6 +111,30 @@ blockquote {
   line-height: 48px;
   color: #000000; }
 
+nav {
+  position: fixed;
+  margin-left: 20px; }
+  nav li {
+    font-weight: lighter;
+    font-size: 16px; }
+
+.nav-tabs {
+  border: none;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start; }
+  .nav-tabs > li {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    transform-origin: center center;
+    list-style-type: none; }
+    .nav-tabs > li > a {
+      display: block;
+      padding: 1.6rem 1rem;
+      background-color: transparent; }
+  .nav-tabs .active {
+    text-decoration: underline; }
+
 .container.first {
   margin-top: 50px; }
 
