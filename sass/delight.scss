@@ -13,6 +13,10 @@ font-family: 'Poppins', sans-serif;
 $primary: #00FFC3; //tealish
 $black: #000000;
 
+body {
+	overflow-x: hidden;
+}
+
 h1 {
 	font-family: Poppins;
 	font-style: normal;
@@ -45,6 +49,10 @@ h3 {
 	align-items: center;
 	letter-spacing: -2.5px;
 	color: $primary;
+}
+
+h3.about {
+	font-size: 20rem;
 }
 
 h4 {
@@ -155,7 +163,7 @@ nav {
     & > a {
       display: block;
       padding: 1.6rem 1rem;
-      background-color: transparent;
+      background-color: white;
     }
   }
   .active {
@@ -296,5 +304,31 @@ blockquote {
 		font-family: "Chivo";
 	}
 
+}
+
+.container .credits {
+	margin-top: 15rem;
+}
+
+.container.about-header h3 {
+	margin-top: -12rem;
+	margin-left: -4rem;
+}
+
+.logo-container {
+	margin: 5rem 0;
+}
+
+div.about-copy {
+	margin-top: -12rem;
+
+	p:first-of-type {
+		margin-top: 5rem;
+	}
+
+	h6 {
+		margin-top: 5rem;
+		margin-bottom: 1.5rem;
+	}
 }
 

@@ -6,6 +6,9 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif;
 
 */
+body {
+  overflow-x: hidden; }
+
 h1 {
   font-family: Poppins;
   font-style: normal;
@@ -36,6 +39,9 @@ h3 {
   align-items: center;
   letter-spacing: -2.5px;
   color: #00FFC3; }
+
+h3.about {
+  font-size: 20rem; }
 
 h4 {
   font-family: Poppins;
@@ -131,7 +137,7 @@ nav {
     .nav-tabs > li > a {
       display: block;
       padding: 1.6rem 1rem;
-      background-color: transparent; }
+      background-color: white; }
   .nav-tabs .active {
     text-decoration: underline; }
 
@@ -236,5 +242,23 @@ blockquote {
     font-size: 14px;
     line-height: 132%;
     font-family: "Chivo"; }
+
+.container .credits {
+  margin-top: 15rem; }
+
+.container.about-header h3 {
+  margin-top: -12rem;
+  margin-left: -4rem; }
+
+.logo-container {
+  margin: 5rem 0; }
+
+div.about-copy {
+  margin-top: -12rem; }
+  div.about-copy p:first-of-type {
+    margin-top: 5rem; }
+  div.about-copy h6 {
+    margin-top: 5rem;
+    margin-bottom: 1.5rem; }
 
 /*# sourceMappingURL=delight.css.map */
