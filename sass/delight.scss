@@ -196,7 +196,6 @@ nav {
 }
 
 .jumbo-readmore {
-	border-top: 1px solid black;
 	padding-top: 6px;
 }
 
@@ -356,8 +355,43 @@ div.subpage-copy {
 	}
 }
 
+div.subpage-copy {
+	.download {
+		margin-top: 6rem;
+
+		a {
+			width: 100%;
+			display: inline-block;
+		}
+
+	}
+}
+
+.row.feature-link {
+	padding-top:.5rem;
+	border-top: 1px solid black;
+}
+
+.svg-download::after {
+	content: url("../img/download_arrow.svg");
+	height: 20px;
+	width: 20px;
+}
+
+.svg-readmore::after {
+	content: url("../img/more_arrow.svg");
+	height: 20px;
+	width: 20px;
+}
+
 .credits h6 {
-	line-height: 6.3rem;
+	margin-bottom: 3rem;
+	margin-top: 10rem;
+}
+
+.credits p {
+	font-size: .8rem;
+	line-height: 167%;
 }
 
 .inpage-nav {

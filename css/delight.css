@@ -159,7 +159,6 @@ nav {
   margin-top: 200px; }
 
 .jumbo-readmore {
-  border-top: 1px solid black;
   padding-top: 6px; }
 
 .button {
@@ -276,8 +275,33 @@ div.subpage-copy {
     margin-top: 5rem;
     margin-bottom: 1.5rem; }
 
+div.subpage-copy .download {
+  margin-top: 6rem; }
+  div.subpage-copy .download a {
+    width: 100%;
+    display: inline-block; }
+
+.row.feature-link {
+  padding-top: .5rem;
+  border-top: 1px solid black; }
+
+.svg-download::after {
+  content: url("../img/download_arrow.svg");
+  height: 20px;
+  width: 20px; }
+
+.svg-readmore::after {
+  content: url("../img/more_arrow.svg");
+  height: 20px;
+  width: 20px; }
+
 .credits h6 {
-  line-height: 6.3rem; }
+  margin-bottom: 3rem;
+  margin-top: 10rem; }
+
+.credits p {
+  font-size: .8rem;
+  line-height: 167%; }
 
 .inpage-nav ul, .inpage-nav nav {
   margin-left: 0;
