@@ -77,7 +77,7 @@ p {
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
-  font-size: 1rem;
+  font-size: .8rem;
   line-height: 167%;
   color: #000000; }
 
@@ -168,7 +168,8 @@ nav {
   text-transform: uppercase; }
 
 div.keepinmind {
-  margin-top: -110px; }
+  margin-top: -110px;
+  margin-bottom: 10rem; }
 
 .card {
   border-radius: 0;
@@ -237,9 +238,12 @@ blockquote {
 .bg-number span.three {
   margin-top: -36rem; }
 
+.readmore-content {
+  margin-bottom: 10rem; }
+
 .footer {
   border-top: 1px solid black;
-  margin-top: 300px;
+  margin-top: 10rem;
   padding-top: 16px;
   border-bottom: 24px solid #00FFC3; }
   .footer p {
@@ -256,7 +260,7 @@ blockquote {
   margin-left: -8rem; }
 
 .logo-container {
-  margin: 5rem 0; }
+  margin-top: 10rem; }
 
 div.about {
   margin-top: -12rem; }
@@ -303,22 +307,24 @@ div.subpage-copy .download {
   font-size: .8rem;
   line-height: 167%; }
 
-.inpage-nav ul, .inpage-nav nav {
-  margin-left: 0;
-  padding-left: 0; }
-.inpage-nav li {
-  border-bottom: 1px solid black;
-  line-height: 300%;
-  padding-left: 2rem;
-  font-weight: lighter;
-  font-size: 14px; }
-.inpage-nav li:last-child {
-  border: 0; }
-.inpage-nav .title-el {
-  padding-left: 2px;
-  padding-right: 2px;
-  background: linear-gradient(to top, transparent 60%, transparent 60%); }
-.inpage-nav .current.title-el {
-  background: linear-gradient(to top, #00FFC3 60%, transparent 60%); }
+.inpage-nav {
+  margin-top: 5rem; }
+  .inpage-nav ul, .inpage-nav nav {
+    margin-left: 0;
+    padding-left: 0; }
+  .inpage-nav li {
+    border-bottom: 1px solid black;
+    line-height: 300%;
+    padding-left: 2rem;
+    font-weight: lighter;
+    font-size: 14px; }
+  .inpage-nav li:last-child {
+    border: 0; }
+  .inpage-nav .title-el {
+    padding-left: 2px;
+    padding-right: 2px;
+    background: linear-gradient(to top, transparent 60%, transparent 60%); }
+  .inpage-nav .current.title-el {
+    background: linear-gradient(to top, #00FFC3 60%, transparent 60%); }
 
 /*# sourceMappingURL=delight.css.map */

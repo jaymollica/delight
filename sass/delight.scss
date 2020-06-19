@@ -93,7 +93,7 @@ p {
 	font-family: Poppins;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 1rem;
+	font-size: .8rem;
 	line-height: 167%;
 	color: $black;
 }
@@ -208,6 +208,7 @@ nav {
 
 div.keepinmind {
 	margin-top: -110px;
+	margin-bottom: 10rem;
 }
 
 .card {
@@ -297,9 +298,13 @@ blockquote {
 	margin-top: -36rem;
 }
 
+.readmore-content {
+	margin-bottom: 10rem;
+}
+
 .footer {
 	border-top: 1px solid black;
-	margin-top:300px;
+	margin-top:10rem;
 	padding-top:16px;
 	border-bottom: 24px solid $primary;
 
@@ -322,7 +327,7 @@ blockquote {
 }
 
 .logo-container {
-	margin: 5rem 0;
+	margin-top:10rem;
 }
 
 div.about {
@@ -395,6 +400,8 @@ div.subpage-copy {
 }
 
 .inpage-nav {
+
+	margin-top: 5rem;
 
 	ul, nav {
 		margin-left:0;
