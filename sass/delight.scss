@@ -147,7 +147,41 @@ blockquote {
 }
 
 //nav
-nav {
+
+nav.mobile {
+	background-color: white;
+
+	button {
+		font-family: Chivo;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		line-height: 24px;
+		text-transform: uppercase;
+		color: $black;
+		border: 0;
+		background-color: white;
+	}
+
+	li {
+		border-bottom: 1px solid black;
+		line-height: 300%;
+		font-weight: lighter;
+		font-size: 14px;
+	}
+
+	li.active {
+		font-weight: bold;
+	}
+
+	li:last-child {
+		border:0;
+	}
+
+}
+
+
+nav.desktop {
 	position: fixed;
 	li {
 		font-weight: lighter;
@@ -316,8 +350,8 @@ blockquote {
 }
 
 .container.about-header h3 {
-	margin-top: -12rem;
-	margin-left: -4rem;
+	margin-top: -66rem;
+	margin-left: -8rem;
 }
 
 .container.subpage-header h3 {
@@ -327,10 +361,13 @@ blockquote {
 
 .logo-container {
 	margin-top:10rem;
+	img {
+		max-width: 100%;
+	}
 }
 
 div.about {
-	margin-top: -12rem;
+	margin-top: -28rem;
 }
 
 div.about-copy {
@@ -427,6 +464,84 @@ div.subpage-copy {
 		background: linear-gradient(to top, $primary 60%, transparent 60%);
 	}
 	
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { 
+	h1 {
+		font-size: 3rem;
+		line-height: 167%;
+	}
+
+	h2 {
+		font-size: 3.3rem;
+		line-height: 167%;
+	}
+
+	.jumbotron {
+		margin-top: -3.2rem;
+	}
+
+}
+
+
+// small devices
+@media (max-width: 767.98px) {
+
+	h1 {
+		font-size: 1.8rem;
+		line-height: 167%;
+	}
+
+	h2 {
+		font-size: 2rem;
+		line-height: 167%;
+	}
+
+	h3 {
+		display: none;
+	}
+
+	h4 {
+		font-size: 1.5rem;
+		line-height: 140%;
+	}
+
+	div.subpage-copy {
+		margin-top: 3rem;
+
+		h4 {
+			font-size: 2.5rem;
+		}
+
+		blockquote {
+			font-size: 1.6rem;
+		}
+
+	}
+
+	.credits p {
+		margin-top: 0 !important;
+	}
+
+	div.keepinmind {
+		margin-top: 0;
+		margin-bottom: 3rem;
+	}
+
+	.title-num {
+		padding: 0;
+		text-align: left;
+	}
+
+	.accordion-container {
+		margin-bottom: 3rem;
+	}
+
+	div.about {
+		margin-top: 3rem;
+	}
+
 }
 
 

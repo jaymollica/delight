@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Responsible Design for Digial Communities: About</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -25,13 +25,23 @@
 </head>
 
 <body>
-  <nav>
-    <ul class="nav nav-tabs">
-      <li role="presentation"><a href="/">Home</a></li>
-      <li role="presentation"><a href="checklist.html">Checklist</a></li>
-      <li role="presentation"><a href="/human-element.html">Human Element</a></li>
-      <li role="presentation" class="active"><a href="/about.html">About</a></li>
-    </ul>
+
+  <nav class="navbar navbar-inverse mobile sticky-top d-block d-md-none pb-0">
+    <div class="container-fluid p-0">
+      <div class="navbar-header col-12 text-left p-0">
+        <button type="button" class="p-0 navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          Menu
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="/">Home</a></li>
+          <li><a href="/checklist.html">Checklist</a></li>
+          <li><a href="/human-element.html">Human Element</a></li>
+          <li class="active"><a href="/about.html">About</a></li>
+        </ul>
+      </div>
+    </div>
   </nav>
 
   <div class="container about-header">
@@ -43,7 +53,7 @@
   <div class="container about">
     <div class="row">
 
-      <div class="col-md-3 align-self-start sticky-top credits">
+      <div class="col-md-3 align-self-start sticky-top credits d-none d-md-block">
         <h6 class="text-right">Credits</h6>
         <p class="text-right">
           Research &amp; writing by Caroline Sinders<br/>
@@ -106,9 +116,33 @@
           </a>
         </div>
 
+        <div class="p-0 col-12 credits d-block d-md-none">
+        <h6 class="text-left">Credits</h6>
+        <p class="text-left">
+          Research &amp; writing by Caroline Sinders<br/>
+          Editing by Margarita Noreiga<br/>
+          &amp; Edward Anthony<br/>
+          Design by Xuedi Chen &amp; Pedro Oliveira<br/>
+          Web development by Jay Mollica<br/>
+        </p>
+        <div class="col-12 col-md-12 jumbo-readmore button p-0">
+          <a href="#" class="">
+            <div class="container p-0">
+              <div class="row feature-link m-0">
+                <div class="col-sm-10 text-left p-0">
+                  Download Toolkit
+                </div>
+                <div class="col-sm-2 svg-download text-right p-0">
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
       </div>
     </div>
-    
+
     <div class="row">
       <div class="col-sm-12 text-right logo-container">
         <img src="img/logos.svg" />
@@ -119,10 +153,10 @@
 
   <div class="container">
     <div class="row footer">
-      <div class="col-md-6 text-left">
+      <div class="col-12 col-md-6 text-left">
         <p>2020 © All rights reserved</p>
       </div>
-      <div class="col-md-6 text-right">
+      <div class="col-12 col-md-6 text-left text-md-right">
         <p>Something &middot; Privacy &middot; Terms</p>
       </div>
     </div>

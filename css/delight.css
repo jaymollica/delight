@@ -121,9 +121,31 @@ blockquote {
   line-height: 140%;
   color: #000000; }
 
-nav {
+nav.mobile {
+  background-color: white; }
+  nav.mobile button {
+    font-family: Chivo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    border: 0;
+    background-color: white; }
+  nav.mobile li {
+    border-bottom: 1px solid black;
+    line-height: 300%;
+    font-weight: lighter;
+    font-size: 14px; }
+  nav.mobile li.active {
+    font-weight: bold; }
+  nav.mobile li:last-child {
+    border: 0; }
+
+nav.desktop {
   position: fixed; }
-  nav li {
+  nav.desktop li {
     font-weight: lighter;
     font-size: 16px; }
 
@@ -251,8 +273,8 @@ blockquote {
     font-family: "Chivo"; }
 
 .container.about-header h3 {
-  margin-top: -12rem;
-  margin-left: -4rem; }
+  margin-top: -66rem;
+  margin-left: -8rem; }
 
 .container.subpage-header h3 {
   margin-top: -32rem;
@@ -260,9 +282,11 @@ blockquote {
 
 .logo-container {
   margin-top: 10rem; }
+  .logo-container img {
+    max-width: 100%; }
 
 div.about {
-  margin-top: -12rem; }
+  margin-top: -28rem; }
 
 div.about-copy p:first-of-type {
   margin-top: 5rem; }
@@ -323,5 +347,56 @@ div.subpage-copy .download {
   background: linear-gradient(to top, transparent 60%, transparent 60%); }
 .inpage-nav .current.title-el {
   background: linear-gradient(to top, #00FFC3 60%, transparent 60%); }
+
+@media (max-width: 991.98px) {
+  h1 {
+    font-size: 3rem;
+    line-height: 167%; }
+
+  h2 {
+    font-size: 3.3rem;
+    line-height: 167%; }
+
+  .jumbotron {
+    margin-top: -3.2rem; } }
+@media (max-width: 767.98px) {
+  h1 {
+    font-size: 1.8rem;
+    line-height: 167%; }
+
+  h2 {
+    font-size: 2rem;
+    line-height: 167%; }
+
+  h3 {
+    display: none; }
+
+  h4 {
+    font-size: 1.5rem;
+    line-height: 140%; }
+
+  div.subpage-copy {
+    margin-top: 3rem; }
+    div.subpage-copy h4 {
+      font-size: 2.5rem; }
+    div.subpage-copy blockquote {
+      font-size: 1.6rem; }
+
+  .credits p {
+    margin-top: 0 !important; }
+
+  div.keepinmind {
+    margin-top: 0;
+    margin-bottom: 3rem; }
+
+  .title-num {
+    padding: 0;
+    text-align: left; }
+
+  .accordion-container {
+    margin-bottom: 3rem; }
+
+  div.about {
+    margin-top: 3rem; } }
 
 /*# sourceMappingURL=delight.css.map */

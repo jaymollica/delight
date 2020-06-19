@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Responsible Design for Digial Communities</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -25,7 +25,26 @@
 </head>
 
 <body>
-  <nav>
+
+  <nav class="navbar navbar-inverse mobile sticky-top d-block d-md-none pb-0">
+    <div class="container-fluid p-0">
+      <div class="navbar-header col-12 text-left p-0">
+        <button type="button" class="p-0 navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          Menu
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="/">Home</a></li>
+          <li><a href="/checklist.html">Checklist</a></li>
+          <li><a href="/human-element.html">Human Element</a></li>
+          <li><a href="/about.html">About</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <nav class="desktop d-none d-md-block">
     <ul class="nav nav-tabs">
       <li role="presentation" class="active"><a href="/">Home</a></li>
       <li role="presentation"><a href="checklist.html">Checklist</a></li>
@@ -37,24 +56,24 @@
   <!-- Add your site or application content here -->
   <div class="container first">
     <div class="row">
-      <div class="col-md-10 offset-md-1">
+      <div class="col-sm-12 col-md-10 offset-md-1">
         <h1>Responsible Design for</h1>
         <h2>Digital Communities</h2>
       </div>
       <div class="col-sm-12 jumbotron">
-        <div class="col-sm-12 col-md-6 offset-md-6 jumbocopy">
+        <div class="col-12 col-md-6 offset-md-6 jumbocopy">
           <p>
             Digital interfaces are the bridges to our communities. Technology can’t fix the systemic inequality revealed by COVID19, but it can help make connections with our communities better. This tool kit and website brings together emergent best practices, workflows, and tools that communities, educators, mutual aid groups, designers, artists and activists are using for community building, and how design needs to change to best suit people, right now.
           </p>
 
-          <div class="col-sm-12 col-md-4 jumbo-readmore button p-0">
+          <div class="col-12 col-md-6 col-lg-4 jumbo-readmore button p-0">
             <a href="#" class="">
               <div class="container p-0">
                 <div class="row feature-link m-0">
-                  <div class="col-sm-10 text-left p-0">
+                  <div class="col-10 text-left p-0">
                     Read More
                   </div>
-                  <div class="col-sm-2 svg-readmore text-right p-0">
+                  <div class="col-2 svg-readmore text-right p-0">
                   </div>
                 </div>
               </div>
@@ -65,8 +84,8 @@
       </div>
     </div>
 
-    <div class="row">
-      <div class="col-sm-12 pl-0">
+    <div class="row p-4">
+      <div class="col-sm-12">
         <h3>Keep In Mind</h3>
       </div>
       <div class="col-sm-12 col-md-6 offset-md-6 keepinmind">
@@ -77,7 +96,7 @@
     </div>
 
     <!-- accordion start -->
-    <div class="row">
+    <div class="row accordion-container">
       <div class="col-sm-12">
 
         <div class="accordion" id="accordionExample">
@@ -88,9 +107,9 @@
 
                   <div class="container-fluid">
                     <div class="row">
-                      <div class="col-md-1 text-center">01</div>
-                      <div class="col-md-10 text-left p-0"><span class="title-el">For The Community Group And Organizer</span></div>
-                      <div class="col-md-1 text-center svg-el"></div>
+                      <div class="col-2 p-0 col-md-1 text-lg-center text-left title-num">01</div>
+                      <div class="col-8 col-md-10 text-left p-0"><span class="title-el">For The Community <span class="d-none d-md-inline">Group And Organizer</span></span></div>
+                      <div class="col-2 col-md-1 text-center svg-el"></div>
                     </div>
                   </div>
 
@@ -103,12 +122,12 @@
                 <div class="container fluid">
 
                   <div class="row accordion-header">
-                    <div class="col-sm-9 offset-md-1">
+                    <div class="col-12 col-lg-9 offset-lg-1">
                       <h4>There needs to be structure and a plan</h4>
                     </div>
                   </div>
                   <div class="row accordion-body">
-                    <div class="col-sm-12 col-md-6 offset-md-2">
+                    <div class="col-sm-12 col-lg-6 offset-lg-2">
 
                     If you’re organizing your community to come together, engage in conversation, teach, or even just to talk or you’re part of a collective that organizes people, the tools you’re using are probably pretty frustrating. What’s important to understand is that tools are frustrating, and poorly designed, and organizers usually have to use a bunch of tools to accomplish organize and create a  workflow and this needs to be balanced with persevering digital safety for your attendees. This ‘digital duct taping’ is like giong from Google Docs to Slack to Zoom to organizing and planning for communities.
 
@@ -122,14 +141,14 @@
 
                     </div>
 
-                    <div class="col-md-3 offset-md-1 text-center">
+                    <div class="col-md-3 offset-md-1 text-center d-none d-lg-block">
                       <p class="accordion-number">1</p>
                     </div>
 
                   </div>
 
                   <div class="row">
-                    <div class="col-sm-12 col-md-3 offset-md-9 readmore-content">
+                    <div class="col-sm-12 col-md-6 col-lg-3 offset-md-6 offset-lg-9 readmore-content">
                       <h6>Digital Duct Taping</h6>
                       <p>
                         Communities need multiple tools to do things, those tools sometimes sync up fairly well, such as going from Google Docs, Slack and Airtable, but sometimes they don’t.
@@ -152,7 +171,7 @@
                     </div>
                   </div>
 
-                  <div class="row bg-number">
+                  <div class="row bg-number d-none d-lg-block">
                     <span>1</span>
                   </div>
 
@@ -169,9 +188,9 @@
 
                   <div class="container-fluid">
                     <div class="row">
-                      <div class="col-md-1 text-center">02</div>
-                      <div class="col-md-10 text-left p-0"><span class="title-el">For The Designer</span></div>
-                      <div class="col-md-1 text-center svg-el"></div>
+                      <div class="col-2 p-0 col-md-1 text-lg-center text-left title-num">02</div>
+                      <div class="col-8 col-md-10 text-left p-0"><span class="title-el">For The Designer</span></div>
+                      <div class="col-2 col-md-1 text-center svg-el"></div>
                     </div>
                   </div>
 
@@ -184,12 +203,12 @@
                 <div class="container">
 
                   <div class="row accordion-header">
-                    <div class="col-sm-9 offset-md-1">
+                    <div class="col-12 col-lg-9 offset-lg-1">
                       <h4>Architecting intimacy with interfaces</h4>
                     </div>
                   </div>
                   <div class="row accordion-body">
-                    <div class="col-sm-12 col-md-6 offset-md-2">
+                    <div class="col-12 col-lg-6 offset-lg-2">
 
                     Right now, people are using conferencing tools similar to social networks. People aren’t just using video conferencing for work, they are using it for social interactions, for artists panels, and for really large group hangouts- for mutual aid, community organizations, church meetings, school, and even city meetings. The user interface design in these tools need to be focused on serving all of these groups, with one host or a variety of hosts, and better tools for participants. Imagine if hosts could queue up speakers, have interactive polls, or if participants could decide who they wanted to ‘sit’ next to in the video marquee. People need this kind of agency, and they need more customization- they need a mixture of a broadcast tool and a social network but with a focus on video. 
 
@@ -200,14 +219,14 @@
 
                     </div>
 
-                    <div class="col-md-3 offset-md-1 text-center">
+                    <div class="col-md-3 offset-md-1 text-center d-none d-lg-block">
                       <p class="accordion-number">2</p>
                     </div>
 
                   </div>
 
                   <div class="row">
-                    <div class="col-sm-12 col-md-3 offset-md-9 readmore-content">
+                    <div class="col-sm-12 col-md-6 col-lg-3 offset-md-6 offset-lg-9 readmore-content">
                       <h6>Moderation</h6>
                       <p>
                         Even with Zoom’s update, hosts and participants need better UI moderation. Moderation shouldn’t just fall to the host, when any participant can face harassment. 
@@ -230,7 +249,7 @@
                     </div>
                   </div>
 
-                  <div class="row bg-number">
+                  <div class="row bg-number d-none d-lg-block">
                     <span>2</span>
                   </div>
                 </div>
@@ -246,9 +265,9 @@
 
                   <div class="container-fluid">
                     <div class="row">
-                      <div class="col-md-1 text-center">03</div>
-                      <div class="col-md-10 text-left p-0"><span class="title-el">For The Engineer</span></div>
-                      <div class="col-md-1 text-center svg-el"></div>
+                      <div class="col-2 p-0 col-md-1 text-left text-lg-center title-num">03</div>
+                      <div class="col-8 col-md-10 text-left p-0"><span class="title-el">For The Engineer</span></div>
+                      <div class="col-2 col-md-1 text-center svg-el"></div>
                     </div>
                   </div>
 
@@ -261,12 +280,12 @@
                 <div class="container fluid">
 
                   <div class="row accordion-header">
-                    <div class="col-sm-9 offset-md-1">
+                    <div class="col-12 col-lg-9 offset-lg-1 offset-lg-1">
                       <h4>Latency and security are a top priority</h4>
                     </div>
                   </div>
                   <div class="row accordion-body">
-                    <div class="col-sm-12 col-md-6 offset-md-2">
+                    <div class="col-12 col-lg-6 offset-lg-2">
 
                     What’s key here is latency, syncing, security and safety- which depending upon the tool can be meh, okay, or bad. If you’re worried about security, the Mozilla Foundation publishes Privacy Not Included, a guide that analyzes different tools and products on how ‘secure’ the tools, products and technology are and they have a special guide just for video conferencing. There are five points to consider: does the product, tool or app have encryption or end to end encryption, does it push security updates, does it require a strong password, does it manage vulnerabilities like having a bug bounty program, and does it have a privacy policy?
 
@@ -278,20 +297,20 @@
 
                     </div>
 
-                    <div class="col-md-3 offset-md-1 text-center">
+                    <div class="col-lg-3 offset-lg-1 text-center d-none d-lg-block">
                       <p class="accordion-number">3</p>
                     </div>
 
                   </div>
 
                   <div class="row">
-                    <div class="col-sm-12 col-md-3 offset-md-9 readmore-content">
+                    <div class="col-sm-12 col-md-6 offset-md-6 col-lg-3 offset-lg-9 readmore-content">
                       <h6>Reliability</h6>
                       <p>
                         No matter how well planned an event is, the second something breaks, the moment is lost. People will choose to use another platform with lower quality video but is more reliable.
                       </p>
                       
-                      <div class="col-sm-12 col-md-6 accordion jumbo-readmore button p-0">
+                      <div class="col-12 col-lg-6 accordion jumbo-readmore button p-0">
                         <a href="#" class="">
                           <div class="container p-0">
                             <div class="row feature-link m-0">
@@ -308,7 +327,7 @@
                     </div>
                   </div>
 
-                  <div class="row bg-number">
+                  <div class="row bg-number d-none d-lg-block">
                     <span class="three">3</span>
                   </div>
                 </div>
@@ -318,25 +337,26 @@
         </div>
       </div>
     </div>
+  </div>
     <!-- accordion end -->
 
     <div class="row">
       <div class="col-sm-12 pl-0">
         <h3>Dive Deeper</h3>
       </div>
-      <div class="col-sm-12 col-md-3 offset-md-6 keepinmind">
+      <div class="col-12 col-md-6 col-lg-3 offset-lg-6 keepinmind">
         <h6>The Checklist</h6>
         <p>A list of needs that designers and engineers have to prioritize when designing technology that functions easily and safely for communities online.
         </p>
 
-        <div class="col-sm-12 accordion jumbo-readmore button p-0">
+        <div class="col-12 accordion jumbo-readmore button p-0">
           <a href="#" class="">
             <div class="container p-0">
               <div class="row feature-link m-0">
-                <div class="col-sm-10 text-left p-0">
+                <div class="col-10 text-left p-0">
                   Read More
                 </div>
-                <div class="col-sm-2 svg-readmore text-right p-0">
+                <div class="col-2 svg-readmore text-right p-0">
                 </div>
               </div>
             </div>
@@ -344,7 +364,7 @@
         </div>
 
       </div>
-      <div class="col-sm-12 col-md-3 keepinmind">
+      <div class="col-12 col-md-6 col-lg-3 keepinmind">
         <h6>Download The Toolkit</h6>
         <p>The project and toolkit are made in response to how communities were organizing and creating spaces of interaction during COVID19.
         </p>
@@ -353,10 +373,10 @@
           <a href="#" class="">
             <div class="container p-0">
               <div class="row feature-link m-0">
-                <div class="col-sm-10 text-left p-0">
+                <div class="col-10 text-left p-0">
                   Download Toolkit
                 </div>
-                <div class="col-sm-2 svg-download text-right p-0">
+                <div class="col-2 svg-download text-right p-0">
                 </div>
               </div>
             </div>
@@ -370,10 +390,10 @@
 
   <div class="container">
     <div class="row footer">
-      <div class="col-md-6 text-left">
+      <div class="col-12 col-md-6 text-left">
         <p>2020 © All rights reserved</p>
       </div>
-      <div class="col-md-6 text-right">
+      <div class="col-12 col-md-6 text-left text-md-right">
         <p>Something &middot; Privacy &middot; Terms</p>
       </div>
     </div>
