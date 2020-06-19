@@ -273,8 +273,8 @@ blockquote {
     font-family: "Chivo"; }
 
 .container.about-header h3 {
-  margin-top: -66rem;
-  margin-left: -8rem; }
+  margin-top: -12rem;
+  margin-left: -4rem; }
 
 .container.subpage-header h3 {
   margin-top: -32rem;
@@ -286,7 +286,7 @@ blockquote {
     max-width: 100%; }
 
 div.about {
-  margin-top: -28rem; }
+  margin-top: -12rem; }
 
 div.about-copy p:first-of-type {
   margin-top: 5rem; }
