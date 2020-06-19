@@ -122,7 +122,8 @@ blockquote {
   color: #000000; }
 
 nav.mobile {
-  background-color: white; }
+  background-color: white;
+  border-bottom: 3px solid #00FFC3; }
   nav.mobile button {
     font-family: Chivo;
     font-style: normal;
