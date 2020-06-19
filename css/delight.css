@@ -122,8 +122,7 @@ blockquote {
   color: #000000; }
 
 nav {
-  position: fixed;
-  margin-left: 20px; }
+  position: fixed; }
   nav li {
     font-weight: lighter;
     font-size: 16px; }
