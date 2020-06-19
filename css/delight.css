@@ -117,8 +117,8 @@ blockquote {
   font-family: Chivo;
   font-style: normal;
   font-weight: normal;
-  font-size: 40px;
-  line-height: 48px;
+  font-size: 2rem;
+  line-height: 140%;
   color: #000000; }
 
 nav {
@@ -307,24 +307,22 @@ div.subpage-copy .download {
   font-size: .8rem;
   line-height: 167%; }
 
-.inpage-nav {
-  margin-top: 5rem; }
-  .inpage-nav ul, .inpage-nav nav {
-    margin-left: 0;
-    padding-left: 0; }
-  .inpage-nav li {
-    border-bottom: 1px solid black;
-    line-height: 300%;
-    padding-left: 2rem;
-    font-weight: lighter;
-    font-size: 14px; }
-  .inpage-nav li:last-child {
-    border: 0; }
-  .inpage-nav .title-el {
-    padding-left: 2px;
-    padding-right: 2px;
-    background: linear-gradient(to top, transparent 60%, transparent 60%); }
-  .inpage-nav .current.title-el {
-    background: linear-gradient(to top, #00FFC3 60%, transparent 60%); }
+.inpage-nav ul, .inpage-nav nav {
+  margin-left: 0;
+  padding-left: 0; }
+.inpage-nav li {
+  border-bottom: 1px solid black;
+  line-height: 300%;
+  padding-left: 2rem;
+  font-weight: lighter;
+  font-size: 14px; }
+.inpage-nav li:last-child {
+  border: 0; }
+.inpage-nav .title-el {
+  padding-left: 2px;
+  padding-right: 2px;
+  background: linear-gradient(to top, transparent 60%, transparent 60%); }
+.inpage-nav .current.title-el {
+  background: linear-gradient(to top, #00FFC3 60%, transparent 60%); }
 
 /*# sourceMappingURL=delight.css.map */

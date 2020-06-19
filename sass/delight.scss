@@ -141,8 +141,8 @@ blockquote {
 	font-family: Chivo;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 40px;
-	line-height: 48px;
+	font-size: 2rem;
+	line-height: 140%;
 	color: $black;	
 }
 
@@ -400,8 +400,6 @@ div.subpage-copy {
 }
 
 .inpage-nav {
-
-	margin-top: 5rem;
 
 	ul, nav {
 		margin-left:0;
