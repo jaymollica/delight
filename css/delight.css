@@ -242,7 +242,7 @@ blockquote {
 
 .footer {
   border-top: 1px solid black;
-  margin-top: 10rem;
+  margin-top: 12rem;
   padding-top: 16px;
   border-bottom: 24px solid #00FFC3; }
   .footer p {
@@ -279,7 +279,7 @@ div.subpage-copy {
     margin-bottom: 1.5rem; }
 
 div.subpage-copy .download {
-  margin-top: 6rem; }
+  margin-top: 8rem; }
   div.subpage-copy .download a {
     width: 100%;
     display: inline-block; }
