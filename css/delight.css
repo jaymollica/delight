@@ -299,15 +299,26 @@ div.subpage-copy {
   margin-top: -45rem; }
   div.subpage-copy p:first-of-type {
     margin-top: 5rem; }
+  div.subpage-copy p a {
+    text-decoration: underline; }
   div.subpage-copy h6 {
     margin-top: 5rem;
     margin-bottom: 1.5rem; }
-
-div.subpage-copy .download {
-  margin-top: 8rem; }
-  div.subpage-copy .download a {
-    width: 100%;
-    display: inline-block; }
+  div.subpage-copy .copy-list li {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: .8rem;
+    line-height: 1.5rem;
+    color: #000000;
+    list-style-type: disc;
+    text-transform: none;
+    display: list-item; }
+  div.subpage-copy .download {
+    margin-top: 8rem; }
+    div.subpage-copy .download a {
+      width: 100%;
+      display: inline-block; }
 
 .row.feature-link {
   padding-top: .5rem;

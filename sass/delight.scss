@@ -391,13 +391,31 @@ div.subpage-copy {
 		margin-top: 5rem;
 	}
 
+	p a {
+		text-decoration: underline;
+	}
+
 	h6 {
 		margin-top: 5rem;
 		margin-bottom: 1.5rem;
 	}
-}
+	
+	.copy-list {
 
-div.subpage-copy {
+		li {
+			font-family: Poppins;
+			font-style: normal;
+			font-weight: normal;
+			font-size: .8rem;
+			line-height: 1.5rem;
+			color: $black;
+			list-style-type: disc;
+			text-transform: none;
+			display:list-item;
+		}
+
+	}
+
 	.download {
 		margin-top: 8rem;
 
