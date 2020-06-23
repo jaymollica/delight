@@ -292,10 +292,10 @@ div.about {
 
 div.about-copy p:first-of-type {
   margin-top: 5rem; }
-div.about-copy h6 {
+div.about-copy h2 {
   margin-top: 5rem;
   margin-bottom: 1.5rem; }
-  div.about-copy h6 span {
+  div.about-copy h2 span {
     background: linear-gradient(to top, #00FFC3 60%, transparent 60%);
     padding-left: 2px;
     padding-right: 2px; }
