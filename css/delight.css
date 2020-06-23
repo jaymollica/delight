@@ -9,7 +9,7 @@ font-family: 'Poppins', sans-serif;
 body {
   overflow-x: hidden; }
 
-h1 {
+h1 span.top-section {
   margin-top: 5rem;
   font-family: Poppins;
   font-style: normal;
@@ -20,7 +20,7 @@ h1 {
   position: relative;
   z-index: 1000; }
 
-h2 {
+h1 span.bottom-section {
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
@@ -48,7 +48,7 @@ h3.subpage {
   font-size: 50rem;
   font-family: "Montserrat"; }
 
-h4 {
+h4, h1.subpage-h1, h1.about-copy {
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
@@ -65,7 +65,7 @@ h5 {
   text-transform: uppercase;
   color: #000000; }
 
-h6 {
+h6, .subpage-copy h2, .about-copy h2 {
   font-family: Chivo;
   font-style: normal;
   font-weight: bold;
@@ -245,25 +245,28 @@ blockquote {
   position: relative;
   z-index: 100; }
 
-.bg-number span {
-  color: #00FFC3;
-  font-size: 50rem;
-  font-family: 'Montserrat';
-  font-weight: 700;
-  margin-top: -34rem;
-  line-height: .7;
-  position: relative;
-  z-index: 0; }
-
-.bg-number span.three {
-  margin-top: -36rem; }
+.bg-number {
+  margin-bottom: -1rem; }
+  .bg-number.three {
+    margin-bottom: 0; }
+  .bg-number span {
+    color: #00FFC3;
+    font-size: 50rem;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    margin-top: -34rem;
+    line-height: .7;
+    position: relative;
+    z-index: 0; }
+  .bg-number span.three {
+    margin-top: -36rem; }
 
 .readmore-content {
   margin-bottom: 10rem; }
 
 .footer {
   border-top: 1px solid black;
-  margin-top: 12rem;
+  margin-top: 24rem;
   padding-top: 16px;
   border-bottom: 24px solid #00FFC3; }
   .footer p {
@@ -303,10 +306,10 @@ div.subpage-copy {
     margin-top: 5rem; }
   div.subpage-copy p a {
     text-decoration: underline; }
-  div.subpage-copy h6 {
+  div.subpage-copy h2 {
     margin-top: 5rem;
     margin-bottom: 1.5rem; }
-    div.subpage-copy h6 span {
+    div.subpage-copy h2 span {
       background: linear-gradient(to top, #00FFC3 60%, transparent 60%);
       padding-left: 2px;
       padding-right: 2px; }

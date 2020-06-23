@@ -17,7 +17,7 @@ body {
 	overflow-x: hidden;
 }
 
-h1 {
+h1 span.top-section {
 	margin-top: 5rem;
 	font-family: Poppins;
 	font-style: normal;
@@ -29,7 +29,7 @@ h1 {
 	z-index: 1000;
 }
 
-h2 {
+h1 span.bottom-section {
 	font-family: Poppins;
 	font-style: normal;
 	font-weight: bold;
@@ -61,7 +61,7 @@ h3.subpage {
 	font-family: "Montserrat";
 }
 
-h4 {
+h4, h1.subpage-h1, h1.about-copy {
 	font-family: Poppins;
 	font-style: normal;
 	font-weight: bold;
@@ -80,7 +80,7 @@ h5 {
 	color: $black;
 }
 
-h6 {
+h6, .subpage-copy h2, .about-copy h2 {
 	font-family: Chivo;
 	font-style: normal;
 	font-weight: bold;
@@ -315,19 +315,28 @@ blockquote {
 	z-index: 100;
 }
 
-.bg-number span {
-	color: $primary;
-	font-size: 50rem;
-	font-family: 'Montserrat';
-	font-weight: 700;
-	margin-top: -34rem;
-	line-height: .7;
-	position: relative;
-	z-index: 0;
-}
+.bg-number {
 
-.bg-number span.three {
-	margin-top: -36rem;
+	margin-bottom: -1rem;
+
+	&.three {
+		margin-bottom: 0;
+	}
+
+	span {
+		color: $primary;
+		font-size: 50rem;
+		font-family: 'Montserrat';
+		font-weight: 700;
+		margin-top: -34rem;
+		line-height: .7;
+		position: relative;
+		z-index: 0;
+	}
+
+	span.three {
+		margin-top: -36rem;
+	}
 }
 
 .readmore-content {
@@ -336,7 +345,7 @@ blockquote {
 
 .footer {
 	border-top: 1px solid black;
-	margin-top:12rem;
+	margin-top:24rem;
 	padding-top:16px;
 	border-bottom: 24px solid $primary;
 
@@ -400,7 +409,7 @@ div.subpage-copy {
 		text-decoration: underline;
 	}
 
-	h6 {
+	h2 {
 		margin-top: 5rem;
 		margin-bottom: 1.5rem;
 
