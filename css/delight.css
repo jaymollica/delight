@@ -181,6 +181,12 @@ nav.desktop {
 .jumbo-readmore {
   padding-top: 6px; }
 
+.jumbotron-row,
+.keepinmind-row,
+.accordion-container,
+.divedeeper-row {
+  margin-bottom: 8rem; }
+
 .button {
   font-family: Chivo;
   font-style: normal;
@@ -188,8 +194,7 @@ nav.desktop {
   text-transform: uppercase; }
 
 div.keepinmind {
-  margin-top: -110px;
-  margin-bottom: 10rem; }
+  margin-top: -110px; }
 
 .card {
   border-radius: 0;
@@ -201,19 +206,22 @@ div.keepinmind {
   border: 0;
   background-color: white; }
   .card-header button {
-    width: 100%; }
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.3rem; }
   .card-header button .svg-el {
     content: url("../img/close_x.svg");
-    height: 20px;
-    width: 20px; }
+    height: 25px;
+    width: 25px; }
   .card-header button .title-el {
     padding-left: 2px;
     padding-right: 2px;
     background: linear-gradient(to top, #00FFC3 60%, transparent 60%); }
   .card-header button.collapsed .svg-el {
     content: url("../img/open_arrow.svg");
-    height: 20px;
-    width: 20px; }
+    height: 25px;
+    width: 25px; }
   .card-header button.collapsed .title-el {
     background: linear-gradient(to top, transparent 60%, transparent 60%); }
 
@@ -246,7 +254,8 @@ blockquote {
   z-index: 100; }
 
 .bg-number {
-  margin-bottom: -1rem; }
+  margin-bottom: -1rem;
+  margin-top: -36rem; }
   .bg-number.three {
     margin-bottom: 0; }
   .bg-number span {
@@ -254,23 +263,31 @@ blockquote {
     font-size: 50rem;
     font-family: 'Montserrat';
     font-weight: 700;
-    margin-top: -34rem;
     line-height: .7;
     position: relative;
     z-index: 0; }
   .bg-number span.three {
     margin-top: -36rem; }
 
+.cards-container .card {
+  background-color: transparent;
+  border: 0; }
+  .cards-container .card .card-footer {
+    background-color: transparent;
+    border-top: 1px solid black;
+    margin-top: 2rem; }
+    .cards-container .card .card-footer a {
+      line-height: 3rem; }
+
 .readmore-content {
   margin-bottom: 10rem; }
 
 .footer {
   border-top: 1px solid black;
-  margin-top: 24rem;
   padding-top: 16px;
   border-bottom: 24px solid #00FFC3; }
   .footer p {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 132%;
     font-family: "Chivo"; }
 
