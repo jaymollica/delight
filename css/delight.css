@@ -149,7 +149,7 @@ nav.desktop {
   position: fixed; }
   nav.desktop li {
     font-weight: lighter;
-    font-size: 16px; }
+    font-size: 14px; }
 
 .nav-tabs {
   border: none;
@@ -180,6 +180,9 @@ nav.desktop {
 
 .jumbo-readmore {
   padding-top: 6px; }
+
+body {
+  padding-top: 5rem; }
 
 .jumbotron-row,
 .keepinmind-row,
@@ -292,11 +295,11 @@ blockquote {
     font-family: "Chivo"; }
 
 .container.about-header h3 {
-  margin-top: -12rem;
+  margin-top: -17rem;
   margin-left: -4rem; }
 
 .container.subpage-header h3 {
-  margin-top: -32rem;
+  margin-top: -37rem;
   margin-left: -8rem; }
 
 .logo-container {
@@ -318,7 +321,8 @@ div.about-copy h2 {
     padding-right: 2px; }
 
 div.subpage-copy {
-  margin-top: -45rem; }
+  margin-top: -45rem;
+  margin-bottom: 22rem; }
   div.subpage-copy p:first-of-type {
     margin-top: 5rem; }
   div.subpage-copy p a {

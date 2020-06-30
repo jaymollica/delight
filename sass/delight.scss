@@ -187,7 +187,7 @@ nav.desktop {
 	position: fixed;
 	li {
 		font-weight: lighter;
-		font-size: 16px;
+		font-size: 14px;
 	}
 }
 .nav-tabs {
@@ -229,6 +229,10 @@ nav.desktop {
 
 .jumbo-readmore {
 	padding-top: 6px;
+}
+
+body {
+	padding-top:5rem;
 }
 
 .jumbotron-row,
@@ -382,12 +386,12 @@ blockquote {
 }
 
 .container.about-header h3 {
-	margin-top: -12rem;
+	margin-top: -17rem;
 	margin-left: -4rem;
 }
 
 .container.subpage-header h3 {
-	margin-top: -32rem;
+	margin-top: -37rem;
 	margin-left: -8rem;
 }
 
@@ -424,6 +428,7 @@ div.about-copy {
 div.subpage-copy {
 
 	margin-top: -45rem;
+	margin-bottom: 22rem;
 
 	p:first-of-type {
 		margin-top: 5rem;
