@@ -6,14 +6,6 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif;
 
 */
-/* large devices */
-@media (min-width: 1450px) {
-  .container {
-    max-width: 1400px; } }
-/* extra large devices */
-@media screen and (min-width: 1800px) {
-  .container {
-    max-width: 1800px; } }
 body {
   overflow-x: hidden; }
 
@@ -184,7 +176,8 @@ nav.desktop {
   border-radius: 0; }
 
 .jumbocopy {
-  margin-top: 200px; }
+  margin-top: 200px;
+  padding-bottom: 8rem; }
 
 .jumbo-readmore {
   padding-top: 6px; }
@@ -448,5 +441,42 @@ div.subpage-copy {
 
   div.about {
     margin-top: 3rem; } }
+/* large devices */
+@media (min-width: 1450px) {
+  .container {
+    max-width: 1400px; } }
+/* extra large devices */
+@media screen and (min-width: 1800px) {
+  .container {
+    max-width: 1800px; }
+
+  h1 span.top-section {
+    font-size: 6rem;
+    line-height: 127%; }
+
+  h1 span.bottom-section {
+    font-size: 6.8rem;
+    line-height: 127%; }
+
+  div.jumbotron {
+    margin-top: -5rem; }
+
+  body, p, .footer p {
+    font-size: 1.4rem; }
+
+  .card-header button {
+    font-size: 2rem; }
+
+  .accordion-number {
+    font-size: 18rem; }
+
+  h3 {
+    font-size: 13rem; }
+
+  h6 {
+    font-size: 2rem; }
+
+  div.keepinmind {
+    margin-top: -10rem; } }
 
 /*# sourceMappingURL=delight.css.map */
