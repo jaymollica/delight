@@ -304,7 +304,8 @@ blockquote {
   margin-left: -8rem; }
 
 .logo-container {
-  margin-top: 10rem; }
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
   .logo-container img {
     max-width: 100%; }
 
