@@ -61,6 +61,26 @@
 		});
 
 
+		var bottom = $( ".copy p" ).last().offset().top;
+		console.log("h2 bototm: " + bottom);
+
+		// inpage nav stick to bottom of div
+		window.addEventListener('scroll', function(e) {
+
+			// console.log( $(window).scrollTop() );
+
+  	// 		if ($(window).scrollTop() > bottom) {
+   //    			$('.inpage-nav').removeClass('fixed-bottom');
+   //  		}
+
+   //  		if ($(window).scrollTop() < bottom) {
+   //    			$('.inpage-nav').addClass('fixed-bottom');
+      			
+   //  		}
+
+  		});
+
+
 	});
 	
 })(jQuery, this);

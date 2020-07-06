@@ -111,6 +111,10 @@ a:hover {
 	text-decoration: none;
 }
 
+.home-header {
+	margin-top:5rem;
+}
+
 p.jumbocopy {
 	padding-top:150px;
 	padding-bottom: 100px;
@@ -190,22 +194,30 @@ nav.desktop {
 		font-size: 14px;
 	}
 }
+
 .nav-tabs {
 	border:none;
   	display: flex;
     flex-flow: column nowrap;
     align-items: flex-start;
-  & > li {
-    writing-mode: vertical-lr;
-    transform: rotate(180deg);
-    transform-origin: center center;
-    list-style-type: none;
-    & > a {
-      display: block;
-      padding: 1.6rem 1rem;
-      background-color: white;
+    background-color: white;
+	& > li {
+		writing-mode: vertical-lr;
+		transform: rotate(180deg);
+		transform-origin: center center;
+		list-style-type: none;
+
+		& > a {
+		  display: block;
+		  padding: 1.6rem 1rem;
+		  background-color: white;
+		}
+	}
+
+  	li.active a:hover {
+    	font-style: normal;
     }
-  }
+
   .active {
   	text-decoration: underline;
   }
@@ -230,10 +242,6 @@ nav.desktop {
 
 .jumbo-readmore {
 	padding-top: 6px;
-}
-
-body {
-	padding-top:5rem;
 }
 
 .jumbotron-row,
@@ -387,12 +395,12 @@ blockquote {
 }
 
 .container.about-header h3 {
-	margin-top: -17rem;
+	margin-top: -12rem;
 	margin-left: -4rem;
 }
 
 .container.subpage-header h3 {
-	margin-top: -37rem;
+	margin-top: -32rem;
 	margin-left: -8rem;
 }
 
@@ -477,12 +485,6 @@ div.subpage-copy {
 
 	}
 
-	.row {
-		.inpage-nav {
-			
-		}
-	}
-
 }
 
 .row.feature-link {
@@ -500,6 +502,10 @@ div.subpage-copy {
 	content: url("../img/more_arrow.svg");
 	height: 20px;
 	width: 20px;
+}
+
+.credits {
+	bottom: 5rem;
 }
 
 .credits h6 {
