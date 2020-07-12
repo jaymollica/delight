@@ -14,8 +14,8 @@ h1 span.top-section {
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
-  font-size: 3.8rem;
-  line-height: 4rem;
+  font-size: 4.8rem;
+  line-height: 5rem;
   color: #000000;
   position: relative;
   z-index: 1000; }
@@ -24,8 +24,8 @@ h1 span.bottom-section {
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
-  font-size: 4.6rem;
-  line-height: 4rem;
+  font-size: 5.6rem;
+  line-height: 5rem;
   color: #000000;
   position: relative;
   z-index: 1000; }
@@ -39,7 +39,8 @@ h3 {
   display: flex;
   align-items: center;
   letter-spacing: -2.5px;
-  color: #00FFC3; }
+  color: #00FFC3;
+  margin-left: 3rem; }
 
 h3.about {
   font-size: 20rem; }
@@ -73,6 +74,9 @@ h6, .subpage-copy h2, .about-copy h2 {
   line-height: 167%;
   text-transform: uppercase;
   color: #000000; }
+
+h6.card-title {
+  margin-bottom: 1.5rem; }
 
 p {
   font-family: Poppins;
@@ -149,7 +153,9 @@ nav.mobile {
     border: 0; }
 
 nav.desktop {
-  position: fixed; }
+  position: fixed;
+  z-index: 1000;
+  height: 100%; }
   nav.desktop li {
     font-weight: lighter;
     font-size: 14px; }
@@ -159,7 +165,8 @@ nav.desktop {
   display: flex;
   flex-flow: column nowrap;
   align-items: flex-start;
-  background-color: white; }
+  background-color: white;
+  height: 100%; }
   .nav-tabs > li {
     writing-mode: vertical-lr;
     transform: rotate(180deg);
@@ -187,9 +194,20 @@ nav.desktop {
 
 .jumbo-readmore {
   padding-top: 6px; }
+  .jumbo-readmore span {
+    border-top: 1px solid black;
+    padding-top: .5rem;
+    display: inline-flex;
+    align-items: center; }
 
 .jumbotron-row,
-.keepinmind-row,
+.keepinmind-row {
+  margin-bottom: 2rem; }
+  .jumbotron-row h6,
+  .keepinmind-row h6 {
+    font-size: 1rem;
+    line-height: 220%; }
+
 .accordion-container,
 .divedeeper-row {
   margin-bottom: 8rem; }
@@ -272,9 +290,12 @@ blockquote {
     font-weight: 700;
     line-height: .7;
     position: relative;
-    z-index: 0; }
+    z-index: 0;
+    margin-left: -6rem; }
   .bg-number span.three {
     margin-top: -36rem; }
+  .bg-number span.one {
+    margin-left: 0; }
 
 .cards-container .card {
   background-color: transparent;
@@ -362,7 +383,7 @@ div.subpage-copy {
 .svg-download::after {
   content: url("../img/download_arrow.svg");
   height: 20px;
-  width: 20px; }
+  padding-left: 5px; }
 
 .svg-readmore::after {
   content: url("../img/more_arrow.svg");
