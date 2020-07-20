@@ -33,7 +33,7 @@
 		$(window).scroll(function() {
 
 		    // Get container scroll position
-		    var fromTop = $(this).scrollTop() + 30;
+		    var fromTop = $(this).scrollTop() + 230;
 		   
 		    // Get id of current scroll item
 		    var cur = scrollItems.map(function() {

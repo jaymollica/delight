@@ -235,10 +235,15 @@ nav.desktop {
 // end nav
 
 
+.figure {
+	margin-top: 2rem;
+	margin-bottom: 3rem;
+}
+
 // scroll spy
 nav.scrollspy {
 	position: fixed;
-	z-index: 1000;
+	z-index: 2000;
 	height: 100%;
 	right: 0;
 
@@ -251,7 +256,7 @@ nav.scrollspy {
 nav.scrollspy .nav-tabs {
 	border:none;
   	display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column-reverse;
     align-items: flex-start;
     background-color: white;
     height: 100%;
@@ -263,9 +268,26 @@ nav.scrollspy .nav-tabs {
 
 		& > a {
 		  display: block;
-		  padding: 1.6rem 1rem;
+		  padding: 0 1.6rem 1rem 1rem;
 		  background-color: white;
 		}
+	}
+
+	a {
+		text-decoration: none;
+		padding-top: 0;
+	}
+
+	.line {
+		height: 25vh;
+		border-left: 1px solid black;
+		padding-left: .5rem;
+		margin-bottom: 2rem;
+		margin-top: -5vh;
+	}
+
+	a:hover {
+		font-style: normal;
 	}
 
   	li.active a:hover {
@@ -309,7 +331,7 @@ nav.scrollspy .nav-tabs {
 
 .jumbotron-row,
 .keepinmind-row {
-	margin-bottom: 2rem;
+	margin-bottom: 13rem;
 	h6 {
 		font-size: 1rem;
 		line-height: 220%;
@@ -467,6 +489,14 @@ blockquote {
 		font-family: "Chivo";
 	}
 
+	div.copyright {
+		padding-left: 5rem;
+	}
+
+	div.extra {
+		padding-right: 5rem;
+	}
+
 }
 
 .container.about-header h3 {
@@ -607,7 +637,7 @@ div.subpage-copy {
 		line-height: 300%;
 		padding-left: 2rem;
 		font-weight: lighter;
-		font-size: 14px;
+		font-size: 1.1rem;
 	}
 
 	li:last-child {

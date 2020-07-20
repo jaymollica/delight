@@ -181,9 +181,13 @@ nav.desktop {
   .nav-tabs .active {
     text-decoration: underline; }
 
+.figure {
+  margin-top: 2rem;
+  margin-bottom: 3rem; }
+
 nav.scrollspy {
   position: fixed;
-  z-index: 1000;
+  z-index: 2000;
   height: 100%;
   right: 0; }
   nav.scrollspy li {
@@ -193,7 +197,7 @@ nav.scrollspy {
 nav.scrollspy .nav-tabs {
   border: none;
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: column-reverse;
   align-items: flex-start;
   background-color: white;
   height: 100%; }
@@ -204,8 +208,19 @@ nav.scrollspy .nav-tabs {
     list-style-type: none; }
     nav.scrollspy .nav-tabs > li > a {
       display: block;
-      padding: 1.6rem 1rem;
+      padding: 0 1.6rem 1rem 1rem;
       background-color: white; }
+  nav.scrollspy .nav-tabs a {
+    text-decoration: none;
+    padding-top: 0; }
+  nav.scrollspy .nav-tabs .line {
+    height: 25vh;
+    border-left: 1px solid black;
+    padding-left: .5rem;
+    margin-bottom: 2rem;
+    margin-top: -5vh; }
+  nav.scrollspy .nav-tabs a:hover {
+    font-style: normal; }
   nav.scrollspy .nav-tabs li.active a:hover {
     font-style: normal; }
   nav.scrollspy .nav-tabs .active {
@@ -235,7 +250,7 @@ nav.scrollspy .nav-tabs {
 
 .jumbotron-row,
 .keepinmind-row {
-  margin-bottom: 2rem; }
+  margin-bottom: 13rem; }
   .jumbotron-row h6,
   .keepinmind-row h6 {
     font-size: 1rem;
@@ -351,6 +366,10 @@ blockquote {
     font-size: 12px;
     line-height: 132%;
     font-family: "Chivo"; }
+  .footer div.copyright {
+    padding-left: 5rem; }
+  .footer div.extra {
+    padding-right: 5rem; }
 
 .container.about-header h3 {
   margin-top: -12rem;
@@ -444,7 +463,7 @@ div.subpage-copy {
     line-height: 300%;
     padding-left: 2rem;
     font-weight: lighter;
-    font-size: 14px; }
+    font-size: 1.1rem; }
   .inpage-nav li:last-child {
     border: 0; }
   .inpage-nav .title-el {
