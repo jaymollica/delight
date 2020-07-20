@@ -386,7 +386,7 @@ blockquote {
     max-width: 100%; }
 
 div.about {
-  margin-top: -12rem; }
+  margin-top: -15rem; }
 
 div.about-copy p:first-of-type {
   margin-top: 5rem; }
@@ -446,12 +446,13 @@ div.subpage-copy {
   bottom: 6rem; }
 
 .credits h6 {
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
   margin-top: 10rem; }
 
 .credits p {
-  font-size: .8rem;
-  line-height: 167%; }
+  font-size: 1rem;
+  line-height: 167%;
+  margin-bottom: 3rem; }
 
 .inpage-nav {
   margin-bottom: 5rem; }
