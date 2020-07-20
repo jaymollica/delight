@@ -126,11 +126,6 @@ p.jumbocopy {
 }
 
 
-p.note {
-	font-size: 16px;
-	line-height: 24px;
-}
-
 li {
 	font-family: Chivo;
 	font-style: normal;
@@ -249,7 +244,7 @@ nav.scrollspy {
 
 	li {
 		font-weight: lighter;
-		font-size: 14px;
+		font-size: 1rem;
 	}
 }
 
@@ -770,7 +765,7 @@ div.subpage-copy {
   }
 
   body, p, .footer p {
-  	font-size: 1.4rem;
+  	font-size: 1rem;
   }
 
   .card-header button {
