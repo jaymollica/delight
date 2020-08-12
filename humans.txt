@@ -2,12 +2,18 @@
 # The humans responsible & technology colophon
 
 # TEAM
+                            
+Research and writing by Caroline Sinders                  
+Site: https://carolinesinders.com/
+Twitter: @carolinesinders
 
-    <name> -- <role> -- <twitter>
+Editing by Margarita Noreiga & Edward Anthony
 
-# THANKS
+Web development by Jay Mollica
+Site: https://www.jaymollica.com
+Twitter: @JayMollica
 
-    <name>
+Designed by Xuedi Chen & Pedro Oliveira
 
 # TECHNOLOGY COLOPHON
 
