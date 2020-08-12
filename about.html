@@ -119,12 +119,6 @@
 
         <p>We attended events like United We Stream DJ and club music sets, TFW dance parties, Souvenirs, IAM Festival talks, Present!, House of Beautiful Business workshops, This Human Moment and others. We spoke to some collectives, mutual aid groups, artists, and alternative education spaces that have had to shift to the online like Babycastles, the School for Poetic Computation, BedStuy Strong, NYC PPE, Well Now WTF art exhibit curators, Now Play This festival curator, and different creative individuals, educators, and artists like shawne michaelain holloway, Simone Browne, Pamela Liou, Sam Garfield, Marie Foulston, Prem Krishnamurthy, Em Lazer-Walker, and Carly Ayres on their experiences attending events online and participating in digital community building.</p>
 
-        <h2><span>What we Looked at and Who We Talked to</span></h2>
-
-        <p>For this interviewed 25 individuals about their experiences working with mutual aid groups, teaching online, shifting their artistic collectives and arts venue to digital meetups, talks, and events, and what their frustrations, enjoyment and learnings have been during COVID19.</p> 
-
-        <p>We attended events like United We Stream DJ and club music sets, TFW dance parties, Souvenirs, IAM Festival talks, Present!, House of Beautiful Business workshops, This Human Moment and others. We spoke to some collectives, mutual aid groups, artists, and alternative education spaces that have had to shift to the online like Babycastles, the School for Poetic Computation, BedStuy Strong, NYC PPE, Well Now WTF art exhibit curators, Now Play This festival curator, and different creative individuals, educators, and artists like shawne michaelain holloway, Simone Browne, Pamela Liou, Sam Garfield, Marie Foulston, Prem Krishnamurthy, Em Lazer-Walker, and Carly Ayres on their experiences attending events online and participating in digital community building.</p>
-
         <h2><span>Further Research</span></h2>
         <p>Check out our blog for tips, stories from communities and creators we’ve interviewed, and more suggestions on creating responsible technology to create better, safer, and delightful interactions.</p>
 
@@ -183,7 +177,7 @@
         <p>2020 © All rights reserved</p>
       </div>
       <div class="col-12 col-md-6 text-left text-md-right extra">
-        <p>Something &middot; Privacy &middot; Terms</p>
+        <p><a href="https://www.mozilla.org/en-US/privacy/websites/">Privacy</a> &middot; <a href="https://www.mozilla.org/en-US/about/legal/terms/mozilla/">Terms</a></p>
       </div>
     </div>
   </div>
@@ -197,8 +191,39 @@
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+    function WebAnalytics() {
+
+     var _dntStatus = navigator.doNotTrack || navigator.msDoNotTrack;
+
+     var fxMatch = navigator.userAgent.match(/Firefox\/(\d+)/);
+
+     var ie10Match = navigator.userAgent.match(/MSIE 10/i);
+
+     var w8Match = navigator.appVersion.match(/Windows NT 6.2/);
+
+     if (fxMatch && Number(fxMatch[1]) < 32) {
+
+        _dntStatus = 'Unspecified';
+
+     } else if (ie10Match && w8Match) {
+
+         _dntStatus = 'Unspecified';
+
+     } else {
+
+        _dntStatus = { '0': 'Disabled', '1': 'Enabled' }[_dntStatus] || 'Unspecified';
+
+     }
+
+      if (_dntStatus !== 'Enabled'){
+
+        window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+        ga('create', 'UA-87658599-21', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview');
+
+
+      }
+
+    }
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
